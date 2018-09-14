@@ -6,21 +6,25 @@ namespace ChatCourseWork.Controllers
     {
         public ActionResult Index()
         {
-            return null;
+            var a = 5;
+            var b = 6;
+            var result = a + b;
+
+            return View(result);
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            var result = ViewBag.Message = "Your application description page.";
 
-            return null;
+            return View(result);
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            var result = ViewBag.Message = "Your contact page.";
 
-            return null;
+            return View(result);
         }
     }
 }

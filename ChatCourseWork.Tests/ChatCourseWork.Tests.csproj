@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ChatCourseWork\ChatCourseWork.csproj">
+    <ProjectReference Include="..\ChatCourseWork\ChatCourseWork.Api.csproj">
       <Project>{2237740E-BA6B-471A-8493-007BE13A0BA5}</Project>
-      <Name>ChatCourseWork</Name>
+      <Name>ChatCourseWork.Api</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
